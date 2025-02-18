@@ -13,7 +13,7 @@ export default function ScreenB({ navigation, route }) {
     const onPressHandler = () => {
         navigation.navigate('Screen_A', { Message: 'message from B' });
         // navigation.goBack();
-        // navigation.setParams({ ItemId: 14 });
+        // navigation.setParams({ ItemId: 14 }); commented out
     }
 
     return (
