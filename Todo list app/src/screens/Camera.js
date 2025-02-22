@@ -58,7 +58,7 @@ export default function Camera({ navigation, route }) {
         </View>
     );
 }
-
+// css
 const styles = StyleSheet.create({
     body: {
         flex: 1,
